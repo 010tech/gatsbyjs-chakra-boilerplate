@@ -1157,19 +1157,19 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/gatsby-plugin/-/gatsby-plugin-1.0.2.tgz#7895e49575aad4e7cadcd3ed9ea6a15f7688b5df"
   integrity sha512-Xunrf4I2SSoiDx8HgOO7doVFv2Y2oTRJSZXGKeqocOA2TW0Zj3OCU2PRB1QuD4mkwxQ1gs73o4Ho9aQimTxTJQ==
 
-"@chakra-ui/icon@1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-1.1.6.tgz#ccad476148d7edd5c49f1621ea53f2ed01ec2c5e"
-  integrity sha512-BK1tQC9tmZw/YQQJX9KUOqJJUazj7UdHXwa+jPfa6fgwexhsVIMKqucc6FQhbUNG+HvVzcHy7lINEJcct+VqgQ==
+"@chakra-ui/icon@1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-1.1.9.tgz#fbd6e82abf58b890f5bcc728bb75dda25d7b6c63"
+  integrity sha512-lmZHK4O+Wo7LwxRsQb0KmtOwq2iACESxwQgackuj7NPHbAsdF2/y3t2f7KCD+dTKGxoauEMgU2nVLePZWjtpTQ==
   dependencies:
-    "@chakra-ui/utils" "1.5.2"
+    "@chakra-ui/utils" "1.8.0"
 
-"@chakra-ui/icons@1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-1.0.10.tgz#19fac3b73f574162a8e64fa086c3d0adff7a53fd"
-  integrity sha512-D93O7uQ07VjINd51gIRpd7kcMme/jTRtsefbuawYxmIbe6uDaNAIaYfDHM/lJPomdk/iaSXC68ESK6vyyfif+A==
+"@chakra-ui/icons@1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-1.0.13.tgz#d8eb04479b048d8023ae90d76205cd4a0bf7dd79"
+  integrity sha512-twDpFz2uPVboMTEI4QA2y3EJND3G4+/9AVs730fgnnfhTw4EOJt0Lhfm4Spq1qi1LgHF16x4/Lao1E2imB5lWw==
   dependencies:
-    "@chakra-ui/icon" "1.1.6"
+    "@chakra-ui/icon" "1.1.9"
     "@types/react" "^17.0.0"
 
 "@chakra-ui/theme-tools@1.1.3":
@@ -1190,13 +1190,14 @@
     css-box-model "1.2.1"
     lodash.mergewith "4.6.2"
 
-"@chakra-ui/utils@1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.5.2.tgz#48bcbaf4856bd9c1c877b69c7edc7cb767454dc9"
-  integrity sha512-oGBIx93b4bDHm6fpRZp6QQ5hJQOElVi2yI1/ptlSiCCSOKfyuqh8fu+PYMsinWXp44kmTQ4gfEhuRIY4Z/vhbg==
+"@chakra-ui/utils@1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.8.0.tgz#f7aad8175cc5a26a1d2795dc78691bbc21fd539e"
+  integrity sha512-BWIhKcXnLbOIwCTKeNcOStNwk9RyYVA9xRRFPGK6Kp3EhrxP0rDwAbu4D3o3qAc+yhIDhGmPaIj1jRXHB5DTfg==
   dependencies:
     "@types/lodash.mergewith" "4.6.6"
     css-box-model "1.2.1"
+    framesync "5.3.0"
     lodash.mergewith "4.6.2"
 
 "@commitlint/cli@12.1.1":
